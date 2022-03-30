@@ -19,7 +19,7 @@ https://spring.io/guides/gs/spring-boot-docker/
 ### Steps
 1. Clone this repository
 2. `cd spring-boot-docker`
-3. `mvn package`
+3. `mvn package -Dmaven.test.skip`
 4. `java --jar target/spring-boot-docker-0.0.1-SNAPSHOT.jar` to run the server on port 8080
 5. `python3 exploit.py --url http://localhost:8080`
 
